@@ -82,7 +82,7 @@ function App() {
         />
 
         <Routes>
-          {/* <Route
+          <Route
             path="/"
             exact
             render={(props) => (
@@ -99,7 +99,12 @@ function App() {
                 )}
               </>
             )}
-          /> */}
+          />
+          {/* <Route path="/" exact render={(props) => (
+            <>
+            {}
+            </>
+          )} */}
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
